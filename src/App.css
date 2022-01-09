@@ -94,7 +94,7 @@ h1{
   text-align: center;
 }
 #content{
-  margin-left:28%;
+  margin-left:24%;
 
 }
 /* #container1{
@@ -104,7 +104,6 @@ h1{
 
   
 #one{
-  float:left;
   margin:10px;
   border: 1px solid #2da4c6 ;
   border-radius: 50%;
@@ -114,12 +113,13 @@ h1{
   font-weight:bolder;
   background-color:#2da4c6;
 
-
 }
   
-
-#two{
+.num{
   float:left;
+  margin-left:2%
+}
+#two{
   margin:10px;
   border: 1px solid #2da4c6;
   border-radius: 50%;
@@ -130,7 +130,6 @@ h1{
   background-color:#2da4c6;
 }
 #three{
-  float:left;
   margin:10px;
   border: 1px solid #2da4c6;
   border-radius: 50%;
@@ -141,7 +140,6 @@ h1{
   background-color:#2da4c6;
 }
 #four{
-  float:left;
   margin:10px;
   border:1px solid #2da4c6;
   border-radius: 50%;
@@ -151,26 +149,12 @@ h1{
   font-weight:bolder;
   background-color:#2da4c6;
 }
-#textone{
-  float:left;
-  margin-left:30%;
 
-}
-#texttwo{
-  float:left;
-  margin-left:2%;
+#texttwo, #textthree, #textfour{
+  margin-left:5%;
  
-}
-#textthree{
-  float:left;
-  margin-left:2%;
- 
-}
-#textfour{
-  float:left;
-  margin-left:2%;
- 
-}
+} 
+
 #box4{
   background-color:red;
   height:120vh;
@@ -287,15 +271,11 @@ img{
   
  
 }
-#div4{
+#div4, #div5{
   float:left;
-  padding-left:5%;
   margin-left:5%;
 }
-#div5{
-  float:left;
-  padding-left:10%;
-}
+
 #div6{
   float:left;
   margin:10px;
@@ -391,32 +371,57 @@ img{
    
   }
   h1{
-    width:70%;
+    width:90%;
     text-align: center;
   }
   #lorem{
     text-align: center;
-    width:70%;
+    width:90%;
     margin-left: 10px;
   }
   #box3{
-    height:120vh;
+    height:150vh;
     
   }
+  #box4{
+height:150vh
+  }
+
   h2{
-    width:80%;
+    width:90%;
     padding:1%;
   }
   #div1,#div2,#div3{
-    width:80%;
+    width:95%;
     float:none;
-    margin-left:-0.5%;
     padding:1%;
-    height:40%;
-
+    height:28%;
+    margin-left:-1%
 }
-#box4{
-  height:180vh;
+#div33{
+margin-top:5%
+}
+#div4{
+  margin-top:25%;
+  margin-left:-28%
+}
+#div5{
+   margin-top:55% ;
+   margin-left:-25%
+}
+#div6, #div7, #div8{
+  width:70%;
+  margin-left:5%;
+  text-align:center;
+  line-height: 40px;
+  height:30%
+}
+#footer, #footer2{
+  width:100%;
+  margin:none
+}
+#footer>p{
+  margin-left:-10%
 }
 
 }

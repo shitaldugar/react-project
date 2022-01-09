@@ -1,4 +1,7 @@
 import React from "react";
+import image from './../images/image.png'
+import image2 from './../images/image-2.png'
+import image3 from './../images/image-3.png'
 
 class Content3 extends React.Component{
     render(){
@@ -6,12 +9,13 @@ class Content3 extends React.Component{
             <>
             <h3>dicono di noi</h3>
             <div>
-                <div>
-                <img src="../../images/image-2.png"alt="logo"></img>
+                <div id ="div33">
+                 <img width="80px"src={image} alt="logo"/> 
                 </div>
-                <div id="div4">LASTAMPA</div>
-                <div id="div5">core dellia sara</div>
-            </div><br />
+                </div>
+                <div id="div4"> <img height="80px"width="100px"src={image2} alt="logo"/>  </div>
+                <div id="div5"> <img height="80px"width="100px"src={image3} alt="logo"/>  </div>
+          
             <div id="div6">s autem quibusdam et aut
              officiis debitis aut
               rerum necessitatibus saepe 
