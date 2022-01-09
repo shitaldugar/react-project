@@ -3,7 +3,7 @@ import React from "react";
 class Footer extends React.Component{
     render(){
         return(
-            <>
+         <>
             <div>
                 <div id="footer">
                 <h4>CONTATTI</h4>
@@ -17,11 +17,11 @@ class Footer extends React.Component{
                 <p>(hinab  majjn kak)</p>
                 <p>hinab-34567</p>
                 
-              </div>
+                </div>
                      
                 
-        </div>
-            </>
+            </div>
+         </>
         )
     }   
 }

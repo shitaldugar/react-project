@@ -3,8 +3,8 @@ import React from "react";
 class Form extends React.Component {
     
     render(){
-    return( 
-        <>
+     return( 
+      <>
         <div id="form">
             <form>
                 <input id="nome" type="name"placeholder="nome"disabled/>
@@ -14,12 +14,12 @@ class Form extends React.Component {
                 <input id="text2" type="text"placeholder="nessun coupon inserito"disabled/><br />
 
                 <button id="btn">Attiva</button>
-           </form>
+            </form>
         </div>
         
-        </>
-    )
+      </>
+     )
 
-}
+    }
 }
 export default Form;
